@@ -4,7 +4,7 @@ author:
   - 'Hiroyoshi Houchi <hixi@cpan.org>'
 build_requires:
   Test::Deep::Matcher: 0
-  Test::Tester: 0
+  Test::Tester: 0.109
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
@@ -28,7 +28,7 @@ no_index:
 provides:
   Test::Stub::Generator:
     file: lib/Test/Stub/Generator.pm
-    version: 0.01
+    version: 0.02
 requires:
   Carp: 0
   Class::Monadic: 0
@@ -40,6 +40,6 @@ resources:
   bugtracker: https://github.com/hixi-hyi/p5-Test-Stub-Generator/issues
   homepage: https://github.com/hixi-hyi/p5-Test-Stub-Generator
   repository: git://github.com/hixi-hyi/p5-Test-Stub-Generator.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'Hiroyoshi Houchi <git@hixi-hyi.com>'

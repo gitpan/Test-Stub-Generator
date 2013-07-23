@@ -5,14 +5,11 @@ META.json
 README.md
 cpanfile
 examples/mock_guard/is_integer.t
-examples/mock_guard/simple.t
 examples/synopsis.t
 lib/Test/Stub/Generator.pm
 t/00_compile.t
 t/10_basic/object_method.t
 t/10_basic/subroutine.t
-t/20_list/object_method.t
-t/20_list/subroutine.t
 t/30_option/repeat.t
 t/40_apply/complex_return.t
 t/40_apply/various_args.t

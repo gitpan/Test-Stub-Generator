@@ -51,14 +51,14 @@
       "test" : {
          "requires" : {
             "Test::Deep::Matcher" : "0",
-            "Test::Tester" : "0"
+            "Test::Tester" : "0.109"
          }
       }
    },
    "provides" : {
       "Test::Stub::Generator" : {
          "file" : "lib/Test/Stub/Generator.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -72,7 +72,7 @@
          "web" : "https://github.com/hixi-hyi/p5-Test-Stub-Generator"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Hiroyoshi Houchi <git@hixi-hyi.com>"
    ]
